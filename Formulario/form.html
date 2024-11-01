@@ -1,0 +1,62 @@
+<!-- Method 
+Get -> Envia os dados via url
+Post -> envia os dados de forma "escondida"
+-->
+
+<!-- O sistema sabendo a data de nascimento tem a possibilidade de ele calcular a idade sempre que chega o dia do seu aniversário, coisa que, usando só idade não daria pra fazer, pois precisariamos do mês e dia e talvez o ano  -->
+
+
+<form action="https://helloworld.com"  method="get">
+    <label for="name">Nome</label>
+    <input  id="name" type="text" placeholder="Digite aqui o teu nome">
+    <br>
+    <label for="age">Idade</label>
+    <input type="date" id="age" placeholder="DIgite sua idade">
+    <br>
+    <label for="qtd_cursos">Quantidade de cursos</label>
+    <input type="number" id="qtd_cursos" placeholder="Seleciona tua idade" >
+    <br>
+    <label for="telephone">Telephone</label>
+    <input type="text" id="telephone" placeholder="Digite aqui o teu telefone">
+    <br>
+    <label for="city">Cidade</label>
+    <input type="text" id="city" placeholder="Digite tua cidade">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Digite aqui o teu email">
+    <br>
+    <label for="cor_camisa">Cor camisa</label>
+    <input type="color" id="cor_camisa">
+    <br>
+    <label for="link_linkedin">Link do Linkedin</label>
+    <input type="url" id="link_linkedin" placeholder="Coloque aqui tua url">  
+    <br>
+    <label for="dt_hr">Data e hora</label>
+    <input type="datetime-local" id="dt_hr" placeholder="Escolha a data e hora">
+
+    <br>
+    <label for="password">Senha</label>
+    <input type="password"  id="password" placeholder="Digite tua senha">
+    <br>
+    <input type="hidden" id="token" value="124dw">
+
+    <p>Selecione os cursos que gostaria de fazer?</p>
+    <label for="php">PHP</label>
+    <input type="checkbox" name="curso[]" id="php">
+    <br>
+    <label for="gpt">ChatGpt</label>
+    <input type="checkbox" name="curso[]" id="gpt">
+    <br>
+    <p>Escolha o turno da sua turma</p>
+    <br>
+    <label for="manha">manha</label>
+    <input type="radio" value="manha" id="manha" name="turno">
+    <br>
+    <label for="tarde">tarde</label>
+    <input type="radio" value="tarde" id="tarde" name="turno">
+    <br>
+    <label for="noite">noite</label>
+    <input type="radio" value="noite" id="noite" name="turno">
+    
+
+</form>
