@@ -1,0 +1,63 @@
+<form action="">
+    <label for="">Nome</label>
+    <input required type="text" name="" id="nome">
+
+    <br>
+
+    <label for="">Email</label>
+    <input required type="email" id="email"  placeholder="DIgite Aqui">
+
+    <br>
+
+    <label for="">Região</label>
+    <select name="" id="regiao">
+        <option hidden  disabled selected value="">Selecione</option>
+        <option value="">Norte</option>
+        <option value="">Nordeste</option>
+    </select>
+
+    <br>
+
+    <label for="">Estado</label>
+    <select name="" id="cidade">
+        <option hidden disabled selected="selected" value="">Selecione</option>
+        <option value="">Ceará</option>
+        <option value="">Maranhã</option>
+        <option value="">São Paulo</option>
+    </select>
+
+    <br>
+
+    <label for="">Cidade</label>
+    <select required name="" id="cidade">
+        <!-- O required combinado com value"" não deixa passar -->
+        <option hidden disabled selected="selected" value="">Selecione</option>
+        <option value="">Fortaleza</option>
+        <option value="">Amontada</option>
+        <option value="">Beberibe</option>
+    </select>
+
+    <br>
+
+    <label for="">Cursos</label>
+    <select name="" id="">
+        <optgroup label="Desenvolvimento">
+            <option value="">FullStack</option>
+            <option value="">PHP</option>
+            <option value="">TypeScript</option>
+        </optgroup>
+
+        <optgroup label="Marketing">
+            <option value="">Marketing Digital</option>
+            <option value="">Trafego Pago</option>
+        </optgroup>
+
+        <optgroup label="Outros">
+            <option value="">Chat Gpt</option>
+            <option value="">UI UX</option>
+            <option value="">Cyber Segurança</option>
+        </optgroup>
+    </select>
+
+    <button type="">Enviar</button>
+</form>

@@ -1,0 +1,61 @@
+<form action="">
+    <h1>Endereço</h1>
+    <hr>
+
+    <label for="nome">Nome</label>
+    <input type="text" pattern="[A-Za-z]{n}" minlength="2" id="nome" required placeholder="Digite seu nome">
+
+    <br>
+
+    <hr>
+    <label for="cep">CEP</label>
+    <input type="text" pattern="[0-9]{8}" maxlength="8" min="1" max="8"  name="cep" required id="cep" placeholder="Digite seu CEP">
+    
+    <br>
+    <br>
+
+    <label for="logradouro">Logradouro</label>
+    <input type="text"  id="logradouro" placeholder="Ex: Beber cair levantar">
+
+    <br>
+    <br>
+
+    <!-- Preciso barrar caracteres especiais -->
+    <label for="numero">numero</label>
+    <input type="text" id="numero"   placeholder="Ex: 15B">
+
+    <br>
+    <br>
+    <!-- <input type="text" id="uf" placeholder="Digite aqui sua Unidade Federativa"> -->
+
+    <label for="cidade">Cidade</label>
+    <input type="text" id="cidade" placeholder="Digite sua cidade" >
+
+    <br>
+    <br>
+
+    <label for="bairro">Bairro</label>
+    <input type="text" id="bairro" placeholder="Digite seu bairro">
+
+    <br>
+    <br>
+
+    <label for="uf">Uf</label>
+    <select name="" id="">  
+        <option value="">
+
+        <option hidden disabled selected="selected" value="">Selecione</option>
+
+        </option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="complemento">Complemento</label>
+    <input type="text" name="" id="Complemento" placeholder="Ex: Moro perto do escoto mais fedido do bairro">
+
+    <br>
+    <br>
+    <button>Enviar</button>
+</form>

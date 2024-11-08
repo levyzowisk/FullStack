@@ -1,0 +1,16 @@
+Validação de campos
+
+Option: Value = o content do option, quando não definido um no value, ele passa pro value o que tem de content dentro do option.
+Option: hidden = Tira a visibilidade da option
+Option: disabled = Desabilita a opção de ser marcado pelo usuário
+Option: Required = Diz que o campo não pode ser nullo
+
+Input: Pattern = Defini as expressões regulares 
+
+
+Entendendo as expressões regulares do javascript
+    Toda expressão regular começa com '/' e termina com '/'.
+    Oque estiver nessas duas barras indica oque queremos encontrar!
+    Link para estudo do regex
+
+site para emogis = emojipedia;
