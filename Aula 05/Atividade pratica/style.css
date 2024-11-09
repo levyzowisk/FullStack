@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    height: 2.5rem;
+    height: 2.5rem; 
 }
 
 .menu {
@@ -27,3 +27,36 @@ header img {
     border-radius: 0.4em;
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.067);
 }
+.tenis-img {
+    /* position: absolute; */
+}
+
+.tenis-img img {
+    transform: rotate(-20deg);
+    
+    /* position: relative; */
+    width: 10.5rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+
+}
+
+.content-banner {
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+input[type="radio"]  {
+    background-color: black;
+}
+
