@@ -1,7 +1,10 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{  
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box  ;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -9,8 +12,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    margin-bottom: 0.5rem;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header img {
@@ -39,17 +43,19 @@ header img {
 
 }
 
-section {
+.card-banner{
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 
 .content-banner {
     display: flex;
     align-items: center;
+    /* border: 1px red solid; */
     background-color: rgb(234, 234, 234);
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -60,3 +66,86 @@ input[type="radio"]  {
     background-color: black;
 }
 
+.text-card button{
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+
+}
+
+.botoes {
+    margin-top: 0.5rem;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 1px solid red; */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.filter button {
+    border-radius: 0.4rem;
+    padding: 0.25rem 0.9rem; 
+    background-color: white;
+    border: 0;
+    color: rgb(161, 161, 161);
+}
+
+.filter button:focus {
+    background-color: black;
+    /* transform: scale(1.1); */
+    color: white;
+}
+
+.filter button:hover {
+    background-color: black;
+    transition: 1s ;
+    /* transform: scale(1.1); */
+    color: white;
+}
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.content-card{
+    /* border: 1px solid red; */
+    border-radius: 1em;
+    padding: 1rem 0.5rem;
+    background-color: rgb(234, 234, 234);
+
+}
+
+.content-card button {
+    background-color: rgb(245, 244, 244);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.089);
+    border-radius: 0.2rem;
+    border: 0;
+    width: 2rem;
+}
+
+.content-card img {
+    width: 10rem;
+}
+
+.description-card {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rgb(50, 158, 40); */
+    align-items: center;
+
+}
+
+
+.description-card button img {
+    width: 1.5rem ;
+}
