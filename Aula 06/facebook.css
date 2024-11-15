@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 190px;
+    border: 1px solid red;
+
+}
+
+img{
+    width: 10rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px  rgba(0, 0, 0, 0.181);
+    padding: 2rem;
+}
+
+hr{
+    width: 100%;
+}
+
+.form form .entrar{
+    background-color: #0866ff;
+    max-height: 3.75rem;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 20rem ;
+    padding: 0.6rem 0rem;
+    color: white;
+}    
+
+.form form .criar {
+    background-color: #36a420;
+    height: 3.2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 15rem ;  
+    padding: 0.6rem 0rem;
+    color: white;
+
+    
+}
+
+.form {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.form form input {
+    width: 100%;
+    background: none;
+    border-radius: 0.1rem;
+    border: 1px rgb(211, 211, 211) solid;
+    padding: 0.7rem;
+
+}
+
+form {
+    /* width: 395px; */
+
+    min-height: 20rem;
+
+    border: 1px solid green;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+:root {
+    --white: white
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.table {
+    width: 100%;
+    background-color: var(--white);
+}
+
+.table > thead {
+    background-color: black;
+    color: white;
+}
+
+.table, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+td {
+    padding: 0.5rem;
+}
+/* Pseudo-Classes */
+tbody >tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tbody > tr:hover{
+    background-color: rgb(174, 174, 174);
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+tbody > tr > td:last-child{
+    text-align: center;
+}
+
+.btn {
+    border: 0;
+    border-radius: 2px;
+    color: white;
+}
+
+.btn-editar {
+    background-color: rgb(255, 136, 0);
+}
+.btn-excluir {
+    background-color: red;
+}
