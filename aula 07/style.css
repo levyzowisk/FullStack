@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    background-color: red;
+    width: 10vw;
+    height: 10vh;
+    animation: moveRigth 4s linear infinite ;
+}
+
+@keyframes moveRigth {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(100vw);
+    }
+}

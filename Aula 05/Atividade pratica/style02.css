@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(243, 250, 255);
+    margin: 1em;
+
+}
+.nav-verso {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.nav-verso > .arrow > img, .nav-verso > .user > img {
+    width: 2rem;
+}
+
+
+.nav-verso > .arrow, .nav-verso > .user  {
+    background: none;
+}
+
+.title p {
+    color: rgb(145, 145, 145);
+}
+
+.description {
+    text-align: justify;
+    margin-top: 1.5rem;
+    color: rgb(145, 145, 145);
+
+}
+
+.description a {
+    text-decoration: none;
+    color: rgb(215, 14, 202);
+}
+
+.card {
+    margin: 1rem 0rem;
+    /* border: black 1px solid; */
+    display: flex;
+    align-items: center;
+    /* height: 22rem; */
+    width: 100%;
+    /* padding: 1rem; */
+}
+
+.card img {
+    /* border: green 1px solid; */
+    width: 100%;
+}
+
+.to-row {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.to-row .linha {
+    flex-grow: 1;   
+    border: 1px rgb(204, 204, 204) solid;
+}
+
+.data-card {
+    display: flex;
+    justify-content: space-between;
+}
+.data-card {
+
+    margin-bottom: 0.7rem;
+}
+
+.data-card label {
+    font-size: 1.01rem;
+    font-weight: 500;
+}
+
+.data-card input {
+
+    height: 1.7rem;
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.096);
+}
+
+.button-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.button-send button {
+    background: rgb(36, 39, 54);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.02rem;
+    color: white;
+
+}
+
+.available {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-spacing: 5px;
+
+}
+
+.available h6 {
+    color: rgb(116, 116, 116);
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.11);
+    padding: 0.7rem;
+    border-radius: 1.4rem;
+}
+
+.info-bottom .button-addFund {
+    padding: 0.6rem 1rem;
+    border-radius: 0.9rem;
+    border: 2px rgb(36, 39, 54) solid;
+
+}
+
+.button-addFund button {
+    font-weight: 800;
+    font-size: 1rem;
+    
+}
