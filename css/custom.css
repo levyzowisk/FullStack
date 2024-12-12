@@ -1,0 +1,7 @@
+html, body {
+    height: 100%;
+}
+
+body.login .col-md-4 {
+    height: 100vh;
+}
