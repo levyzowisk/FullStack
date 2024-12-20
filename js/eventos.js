@@ -11,10 +11,12 @@ function enviar() {
 
     if (input_nome.value == '') {
         // input_nome.style.border = '1px solid red';
+        input_nome.classList.remove('is-valid');
         input_nome.classList.add('is-invalid');
         erro_nome.style.display = 'block';
     } else {
         // input_nome.style.border = '1px solid green';
+        input_nome.classList.remove('is-invalid');
         input_nome.classList.add('is-valid');
         erro_nome.style.display = 'none';
     }
