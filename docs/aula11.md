@@ -10,7 +10,7 @@ Um código só será executada se satisfizer uma condição exposta
     
     - Simples (um caminho), `IF`
     - Composta (2 caminhos), por exemplo um `Y`, `IF / ELSE`
-    - Encadeada
-    - Multipla Escolha
+    - Encadeada  
+    - Multipla Escolha 
 
 - Repetição
