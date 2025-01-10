@@ -1,5 +1,7 @@
 const SELECT_DIA = document.getElementById('select-dia');
 const SELECT_MES = document.getElementById('select-mes');
+const SELECT_ANO = document.getElementById('select-ano');
+
 
 let numero = 1;
 
@@ -17,7 +19,15 @@ do {
     mes++;
 } while(mes <= 12);
 
+// -------- ANO -----------
+for (let ano = 2025; ano >= 1950; ano--) {
+    if (ano % 2 !== 0) { //é impar?
+        SELECT_ANO.innerHTML += `<option>${ano}</option>`;
+    }
+}
 
+// Dever de casa
+// Mostrar os nomes do meses ao inves dos numero
 
 
 
